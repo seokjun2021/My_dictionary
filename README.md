@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# 나만의 단어장
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+모르는 단어를 모으는 단어장을 만들수 있습니다. 
 
 ## Available Scripts
 
