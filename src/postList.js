@@ -1,21 +1,15 @@
 import React from "react"
 import styled from "styled-components"
 import { useHistory } from "react-router-dom"
-import { useSelector } from "react-redux"
 
 
+const PostList = (props) => {
 
-
-const PostList = () => {
     const history = useHistory()
-    const Data = useSelector((state) => state.word.wordList)
-    console.log(Data)
-
-
     return (
         <>
             <DictionaryText>MY DITIONARY</DictionaryText>
-            {Data.map((list, index) => {
+            {props.data.map((list, index) => {
                 return (<ListBox key={index}>
                     <Content>
                         <ListText>단어</ListText>
