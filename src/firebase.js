@@ -7,13 +7,13 @@ import { getFirestore } from "firebase/firestore";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCcJfXAVMekBqFKY_G4e9e19ZXQYi1WlG4",
-  authDomain: "my-dictionary-fb600.firebaseapp.com",
-  projectId: "my-dictionary-fb600",
-  storageBucket: "my-dictionary-fb600.appspot.com",
-  messagingSenderId: "539089635361",
-  appId: "1:539089635361:web:466c213e357d0bba72bb60",
-  measurementId: "G-2S6JFHR6DH"
+  apiKey: "AIzaSyD3nzNv_a1B4QW95g-W_DYOPStkJOZ8mVY",
+  authDomain: "my-dictionary2-d7467.firebaseapp.com",
+  projectId: "my-dictionary2-d7467",
+  storageBucket: "my-dictionary2-d7467.appspot.com",
+  messagingSenderId: "151887017816",
+  appId: "1:151887017816:web:7c51fb9307eaafea40d72d",
+  measurementId: "G-HXMYJ1ZSXC"
 };
 initializeApp(firebaseConfig); //기초설정을 해줄때는 변수 x
 // Initialize Firebase
