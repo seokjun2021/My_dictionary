@@ -2,7 +2,7 @@ import React, { useRef } from "react"
 import styled from "styled-components"
 import { useHistory } from "react-router-dom"
 import { useDispatch } from "react-redux"
-import { createWord } from "./redux/modules/word"
+import { add_word } from "./redux/modules/word"
 
 
 const AddPost = () => {
@@ -24,11 +24,16 @@ const AddPost = () => {
             ex,
         }
         return obj
+
     }
     const dispatch = useDispatch()
+
     const addList = () => {
-        dispatch(createWord(InputObj()))
-        back()
+    //     dispatch(createWord(InputObj()))
+    //  back()
+    // 
+    dispatch(add_word(InputObj()))
+         back()
     }
 
     return (
